@@ -51,7 +51,7 @@ public class QueryActivity extends AppCompatActivity implements View.OnClickList
                 submit();
                 break;
             case R.id.bt_qurey_signBack:
-
+                submit();
                 break;
         }
     }
@@ -60,7 +60,7 @@ public class QueryActivity extends AppCompatActivity implements View.OnClickList
         // validate
         String num = et_query_num.getText().toString().trim();
         if (TextUtils.isEmpty(num)) {
-            Toast.makeText(this, "num不能为空", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "员工号不能为空", Toast.LENGTH_SHORT).show();
             return;
         }
 

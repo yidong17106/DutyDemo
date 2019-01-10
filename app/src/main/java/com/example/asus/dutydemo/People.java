@@ -8,10 +8,10 @@ public class People {
 
     @Override
     public String toString() {
-        return "id:"+id+'\''+","+
+        return
                 "姓名：'" + name + '\'' +
                 ",工号：" + num +
                 ", 时间：'" + time + '\'' +
-                "";
+                "\n";
     }
 }
